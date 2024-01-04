@@ -2,7 +2,9 @@
 
 ## Overview
 
-This is a sample Spring Data JPA application that demonstrates basic CRUD operations using Spring Boot and JPA.
+This is a sample Spring Data JPA standalone application that demonstrates basic create and retrieve operations using Spring Boot and JPA 
+using CrudRepository Interface, custom findByXXX() methods and Query(JPQL 
+and Native Query).
 
 ## Prerequisites
 
