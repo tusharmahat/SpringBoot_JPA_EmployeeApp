@@ -17,7 +17,7 @@ Make sure you have the following installed before running the application:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/spring-jpa-app.git
+   git clone https://github.com/tusharmahat/SpringBoot_JPA_EmployeeApp.git
 2. Import the project:
     Import the project in Spring Tool Suite
 3. Run the App
