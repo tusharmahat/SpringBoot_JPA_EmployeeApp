@@ -65,8 +65,8 @@ public class Application {
 //		List<Employee> empLists = daoImpl.getAllEmails(1);
 //		empLists.stream().forEach(empl -> System.out.println(empl.getEmail()));
 		
-		List<Employee> empLists = daoImpl.getAllEmails(2);
-		empLists.stream().forEach(empl -> System.out.println(empl.getEmail()));
+		List<String> empLists = daoImpl.getAllEmails(2);
+		empLists.stream().forEach(empl -> System.out.println(empl));
 	}
 
 }

@@ -24,6 +24,6 @@ public interface EmployeeRepo extends CrudRepository<Employee, Integer> {
 //	@Query("from Employee where eno>:no")
 //	List<Employee> getAllEmails(int no);
 	
-	@Query(value="select * from Employee where enumber<:no", nativeQuery=true)
-	List<Employee> getAllEmails(int no);
+	@Query(value="select email from Employee where enumber<:no", nativeQuery=true)
+	List<String> getAllEmails(int no);
 }
